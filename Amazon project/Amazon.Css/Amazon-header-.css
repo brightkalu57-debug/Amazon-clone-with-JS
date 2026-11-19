@@ -1,0 +1,124 @@
+body {
+    font-family: roboto;
+}
+.heading {
+    display: flex;
+    background-color: rgb(19, 25, 33);
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.header-img-column1 {
+    width: 100px;
+    padding: 7px;
+    border: solid transparent 1px;
+}
+.header-img-column1:hover{
+    border: solid white 1px;
+    padding: 7px;
+    border-radius: 2px;
+    padding: 9px 7px;
+}
+.header-column1{
+    width: 180px;
+    margin: 0px;
+}
+
+.header-column2 {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header-column2 input{
+    height: 30px;
+    width: 760px;
+    padding: 5px 19px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 16px;
+}
+.header-column2 button{
+    height: auto;
+    width: 50px;
+    border: none;
+    background-color: rgb(240, 188, 93);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.header-column2 img {
+    width: 23px;
+}
+.header-column2 input::placeholder{
+    font-size: 17px;
+    font-family: roboto;
+}
+.header-column3{
+    width: 90px;
+    display: flex;
+    justify-content: right;
+}
+.header-p-column3{
+    color: white;
+    font-size: 13px;
+    margin: 0px;
+}
+.header-column3 a{
+    border: solid transparent 1px;
+    padding: 7px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.header-column3 a:hover{
+    border: solid white 1px;
+    padding: 6px;
+}
+.header-p2-column3{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin: 0px;
+}
+.header-column4 {
+    width: 90px;
+    margin-left: 5px;
+}
+.header-column4 a{
+    display: flex;
+    position: relative;
+    border: solid transparent 1px;
+    width: 83px;
+    padding: 5px 3px ;
+    text-decoration: none;
+}
+.header-column4 a:hover{
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.header-column4-p1{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.header-column4-p2{
+    position: absolute;
+    bottom: 4px;
+    left: 19px;
+    width: 26px;
+    text-align: center;
+    color: rgb(240, 136, 4);
+    font-weight: bold;
+}
+.header-column4 img {
+    width: 50px;
+}

@@ -148,7 +148,7 @@ export function checkouProduct (){
         <p>Order total:</p>
         <p>$${formatcurrency(priceSummaries.orderTotal)}</p>
       </div>
-        <a href="../Amazon html/Amazon-placedorder.html">
+        <a href="Amazon-placedorder.html">
         <div class="checkoutPlaceorder-container-abledbutton-div">
           <button class="checkoutPlaceorder-container-button js-checkoutPlaceorder-container-button">
             Place your order

@@ -110,7 +110,7 @@ function generateOrderHtml (){
                 </button>
                 </div>
                 <div class="Order-container-body-grid-trackpackage_btn_div">
-                    <a href="../Amazon html/Trackingproduct.html?orderId=${order.ID}&productId=${Item.productId}">
+                    <a href="Trackingproduct.html?orderId=${order.ID}&productId=${Item.productId}">
                         <button class="Order-container-body-grid-trackpackage_btn">
                             Track Package
                         </button>

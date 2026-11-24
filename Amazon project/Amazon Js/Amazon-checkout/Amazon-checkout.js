@@ -176,7 +176,7 @@ function emptycartmessage (){
     .innerHTML= 
     `<div>
       <p class="empty-cart-message">Your cart is empty</p>
-     <a href="amazon-homepage.html">
+     <a href="index.html">
      <button class="View-product-btn">View product</button>
      </a>
      </div>

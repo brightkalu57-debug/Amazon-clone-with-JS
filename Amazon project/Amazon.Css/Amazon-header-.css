@@ -32,7 +32,7 @@ body {
 
 .header-column2 {
     display: flex;
-    margin-left: 100px;
+    margin-left: 10px;
     margin-right: 10px;
 }
 .header-column2 input{
@@ -61,6 +61,7 @@ body {
     font-family: roboto;
 }
 .header-column3{
+    margin-left: 100px;
     width: 90px;
     display: flex;
     justify-content: right;

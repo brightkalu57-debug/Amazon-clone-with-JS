@@ -5,6 +5,7 @@ body {
     display: flex;
     background-color: rgb(19, 25, 33);
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     left: 0px;
     right: 0px;
@@ -60,8 +61,10 @@ body {
     font-size: 17px;
     font-family: roboto;
 }
+.header-main-column3{
+    display: flex;
+}
 .header-column3{
-    margin-left: 100px;
     width: 90px;
     display: flex;
     justify-content: right;
